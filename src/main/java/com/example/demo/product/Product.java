@@ -1,4 +1,4 @@
-package com.example.demo.product.models;
+package com.example.demo.product;
 
 
 import jakarta.persistence.Entity;
@@ -27,8 +27,8 @@ public class Product {
     private double price;
     private String category;
     private LocalDate expiryDate;
-    @Transient
-    private int daysToExpire;
+    // @Transient
+    // private int daysToExpire;
 
 
 }
